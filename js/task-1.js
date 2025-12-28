@@ -1,10 +1,6 @@
 const getUserNames = (users) => {
-  const filteredNames = [];
 
-  users.forEach((number) => {
-    filteredNames.push(number.name);
-  });
-
+  const filteredNames = users.map(user => user.name);
   return filteredNames;
 }
 
