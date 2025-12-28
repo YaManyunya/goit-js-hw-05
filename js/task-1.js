@@ -1,4 +1,4 @@
-function getUserNames(users) {
+const getUserNames = (users) => {
   const filteredNames = [];
 
   users.forEach((number) => {
